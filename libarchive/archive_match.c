@@ -191,7 +191,7 @@ static const struct archive_rb_tree_ops rb_ops_mbs = {
 	cmp_node_mbs, cmp_key_mbs
 };
 
-static const struct archive_rb_tree_ops rb_ops_wcs = {
+static const struct archive_rb_tree_ops rb_ops_wcs __attribute__ ((unused)) = {
 	cmp_node_wcs, cmp_key_wcs
 };
 
